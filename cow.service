@@ -1,0 +1,15 @@
+#/etc/systemd/system/
+# or
+#/usr/lib/systemd/system/cow@.service
+[Unit]
+Description=Cow Service for %i
+After=network.target
+
+[Service]
+# Note that notify will only work if --daemonize=no
+User=%i
+ExecStart=/usr/local/bin/cow -rc /home/chenquan/.cow/rc -debug -v&
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
