@@ -27,7 +27,6 @@
 
 ```
 :PlugInstall
-
 ```
 
 进行安装。
@@ -50,7 +49,6 @@ WQ           wq
 W            w
 Q            q
 Qall         qall
-
 ```
 
 
@@ -94,7 +92,6 @@ C-w j 向下移动
 C-w k 向上移动
 C-w h 向左移动
 C-w l 向右移动
-
 ```
 
 #### Git相关命令
@@ -122,6 +119,7 @@ C-w l 向右移动
 <S-Tab> 上一个TAB
 <S-t>   新建TAB
 ```
+
 注意: 这里的`<Tab>` 就是键盘上的`tab`
 
 #### SESSION相关命令
@@ -191,7 +189,6 @@ buffer导航
 
 关闭buffer
 <leader>c :bd<CR>
-
 ```
 
 #### 搜索高亮清除
@@ -212,7 +209,6 @@ buffer导航
 <C-k>  向上切换
 <C-l>  向左切换
 <C-h>  向右切换
-
 ```
 
 #### visual模式缩进
@@ -238,6 +234,7 @@ buffer导航
   <Leader>db go-doc-browser
 
 ```
+
 #### Go相关命令
 
 ```
