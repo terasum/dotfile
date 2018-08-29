@@ -5,7 +5,7 @@ After=network.target
 [Service]
 # Note that notify will only work if --daemonize=no
 User=%i
-ExecStart=/usr/local/bin/cow -rc /home/chenquan/.cow/rc & 
+ExecStart=/usr/local/bin/cow -rc /home/terasum/.cow/rc & 
 Restart=on-abort
 
 [Install]
